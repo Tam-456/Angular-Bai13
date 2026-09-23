@@ -5,14 +5,14 @@
 ## 1. Bài 13 - Json Array Model – Product Event
 - **Component danh sách:** `src/app/service-product-image-event`
 - **Component chi tiết:** `src/app/service-product-image-event-detail`
-- **Service:** `src/app/Service/product-service.ts`
+- **Service:** `src/app/services/product-service.ts`
 - **Đường dẫn chạy:** `/service-product-image-event`
 
 ---
 
 ## 2. Bài 14 - Json Array Model – Product - Catalog
 - **Component:** `src/app/service-product-catalog`
-- **Service:** `src/app/Service/catalog.service.ts`
+- **Service:** `src/app/services/catalog.ts`
 - **Đường dẫn chạy:** `/service-product-catalog`
 
 ---
