@@ -1,0 +1,23 @@
+<p>service-product-image-event-detail works!</p>
+<div style="border: 1px solid #333; width: fit-content; padding: 12px; margin-top: 10px;">
+  <button (click)="goBack()">Go Back</button>
+  <table *ngIf="selectedProduct" style="margin-top: 10px;">
+    <tr>
+      <td>ID:</td>
+      <td>{{ selectedProduct.ProductId }}</td>
+    </tr>
+    <tr>
+      <td>Name:</td>
+      <td>{{ selectedProduct.ProductName }}</td>
+    </tr>
+    <tr>
+      <td>Price:</td>
+      <td>{{ selectedProduct.Price }}</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="text-align: center;">
+        <img [src]="selectedProduct.Image" width="100" />
+      </td>
+    </tr>
+  </table>
+</div>

@@ -1,0 +1,13 @@
+table, tr, th, td 
+{
+    border: 1px solid #000000;
+}
+tbody tr:nth-child(even) {
+    background-color: #e3d4b2;
+}
+tbody tr:nth-child(odd) {
+    background-color: #bbe2d1;
+}
+tbody tr:hover {
+    background-color: #c49595;
+}

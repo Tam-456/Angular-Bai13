@@ -1,0 +1,31 @@
+<h2>Product List</h2>
+
+<table border="1">
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Image</th>
+  </tr>
+
+  @for (product of products; track product.id) {
+    <tr>
+      <td>{{ product.id }}</td>
+      <td>{{ product.name }}</td>
+
+      <td>
+        @if (product.price < 0) {
+          <span style="color: red;">
+            {{ product.price }}
+          </span>
+        }
+        @else {
+          <span>
+            {{ product.price }}
+          </span>
+        }
+      </td>
+      <td><img [src]="product.image" [alt]="product.name" width="100" /></td>
+    </tr>
+  }
+</table>

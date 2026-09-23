@@ -8,4 +8,7 @@ import { Component, signal } from '@angular/core';
 })
 export class App {
   protected readonly title = signal('my-app');
+  data = "Sample Text";
+
+dataFromChild: any;
 }
