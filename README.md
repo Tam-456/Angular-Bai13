@@ -1,3 +1,10 @@
+# BÀI TẬP THỰC HÀNH ANGULAR
+
+## Bài nộp: Bài 13 - Json Array Model – Product Event
+- **Component danh sách:** `src/app/service-product-image-event`
+- **Component chi tiết:** `src/app/service-product-image-event-detail`
+- **Service dữ liệu:** `src/app/Service/product-service.ts`
+
 # MyApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.7.
